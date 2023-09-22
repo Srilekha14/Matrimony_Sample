@@ -1,0 +1,63 @@
+@media(min-width : 576px) {
+    .card {
+        position: relative;
+        display: inline-flex !important;
+        flex-direction: row;
+        box-shadow: 0 0 10px black;
+        padding: 14px;
+        margin: 3px;
+        width: 120px;
+        height: 1800px;
+        border-radius: 5px;
+        background-color: white;
+    }
+}
+
+.container {
+    background-color: dodgerblue;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.btn {
+    margin: 4px;
+    width: 50px;
+    height: 30px;
+}
+
+.btn-warning {
+    background-color: orange;
+    border: 0;
+    font-size: x-small;
+    color: white;
+}
+
+.btn-rounded {
+    --mdb-btn-border-radius: 15rem;
+    border-radius: var(--mdb-btn-border-radius);
+    background-color: white;
+    font-size: x-small;
+
+}
+
+
+.card {
+    position: relative;
+    display: inline-flex !important;
+    flex-direction: row;
+    box-shadow: 0 0 10px black;
+    padding: 17px;
+    margin: 5px;
+    width: 150px;
+    height: 240px;
+    border-radius: 5px;
+    background-color: white;
+    //background: linear-gradient(45deg,orange,darkgreen);
+}
+
+.content {
+    padding: 12px;
+    margin: 15px;
+    font-size: large;
+    color: white;
+}

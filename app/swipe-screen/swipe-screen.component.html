@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="card shadow-lg d-flex">
+            <div class="card-dummy shadow-lg d-flex">
+                <div class="col-md-3 align-items-center d-flex">
+                    <img style="width: 85px; height:85px" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                        alt="" class="img-fluid">
+                    <div class="card-body">
+                        <img style="height: 10px;width: 10px;color: blue;" src="../../assets/verified_user.png">
+                        <a class="link">Verified</a>
+                        <img style="height: 10px;width: 10px;color: blue;" src="../../assets/premium.png">
+                        <a class="nri">Premium NRI</a>
+                    </div>
+                    <div>
+                        <p class="h3">{{profile.name}}</p>
+                        <p style="font-size: small;">{{description}}</p>
+                    </div>
+                    <div class="tag">
+                        <span class="shortlist"><button (click)="shortlist(profile.id)">
+                                <ion-icon name="star-outline"></ion-icon>
+                            </button>Shortlist</span>
+                        <span class="like"> Like Her?
+                        </span>
+                        <span class="button">
+                            <button class="btn btn-outline-dark btn-rounded " (click)="cancel(profile.id)">
+                                <ion-icon name="close-circle-outline"></ion-icon>
+                            </button>
+                            <button class="btn btn-warning btn-sm" (click)="tick(profile.id)">
+                                <ion-icon name="checkmark-outline"></ion-icon></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+.card{
+    box-shadow: 0 0 10px black;
+    padding: 17px;
+    margin: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+   
+}
+
+.card-body{
+    padding-top: 70px;
+}
+.card-dummy{
+    box-shadow: 0 0 10px black ;
+   padding:  0px !important;
+   margin:0px !important;
+    width: 179px;
+    height: 169px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.link{
+    color: blue;
+    font-size: xx-small;
+}
+
+.tag{
+    padding-top: 50px;
+    font-size: x-small;
+}
+.nri{
+    font-size: xx-small;
+    color:violet;
+}
